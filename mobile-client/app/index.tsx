@@ -64,39 +64,68 @@ export default function Register() {
 }
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
-      backgroundColor: "#fffaf0", // soft cream
-      padding: 24,
-    },
-    title: {
-      fontSize: 32,
-      fontWeight: "bold",
-      color: "#5d3fd3", // royal purple
-      marginBottom: 20,
-      textShadowColor: "#dabfff",
-      textShadowOffset: { width: 2, height: 2 },
-      textShadowRadius: 4,
-      textAlign: "center",
-    },
-    input: {
-      width: "100%",
-      borderWidth: 1,
-      borderColor: "#d8bfd8", // thistle
-      backgroundColor: "#ffffffcc",
-      borderRadius: 10,
-      padding: 12,
-      marginBottom: 12,
-      fontSize: 16,
-    },
-    link: {
-      marginTop: 10,
-      color: "#4169e1", // royal blue
-      textAlign: "center",
-      fontWeight: "500",
-      textDecorationLine: "underline",
-    },
-  });
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    padding: 20,
+    backgroundColor: "#fff0f5", // light pink/lavender tone
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "bold",
+    color: "#6a0dad", // royal purple
+    marginBottom: 20,
+    textAlign: "center",
+    textShadowColor: "#f3e5f5",
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 5,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: "#dda0dd", // plum
+    padding: 12,
+    marginBottom: 12,
+    borderRadius: 12,
+    backgroundColor: "#ffffffcc", // semi-transparent white
+    fontSize: 16,
+  },
+  button: {
+    backgroundColor: "#9370db", // medium purple
+    padding: 14,
+    borderRadius: 12,
+    alignItems: "center",
+    marginTop: 10,
+    shadowColor: "#000",
+    shadowOpacity: 0.1,
+    shadowOffset: { width: 0, height: 4 },
+    shadowRadius: 6,
+  },
+  buttonText: {
+    color: "white",
+    fontWeight: "600",
+    fontSize: 18,
+  },
+  link: {
+    marginTop: 16,
+    textAlign: "center",
+    color: "#4169e1",
+    textDecorationLine: "underline",
+  },
+  card: {
+    backgroundColor: "#fdf5ff",
+    padding: 16,
+    borderRadius: 12,
+    marginBottom: 12,
+    shadowColor: "#000",
+    shadowOpacity: 0.1,
+    shadowOffset: { width: 0, height: 2 },
+    shadowRadius: 4,
+  },
+  name: {
+    fontSize: 20,
+    fontWeight: "600",
+    color: "#4b0082", // indigo
+  },
+});
+
   
